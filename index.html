@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Response Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Response Generator</h1>
+        <p>Note: AI responses may contain errors or inaccuracies. Powered by free Hugging Face models.</p>
+        <label for="prompt">Enter your query:</label>
+        <textarea id="prompt" placeholder="e.g., Explain quantum computing simply..."></textarea>
+        <button id="generate-btn" onclick="generate()">Generate</button>
+        <div id="response">Your generated response will appear here.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
