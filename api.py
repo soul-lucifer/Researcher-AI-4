@@ -18,7 +18,7 @@ app.add_middleware(
 class Query(BaseModel):
     prompt: str
 
-HF_TOKEN = os.getenv("HF_TOKEN", "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")  # Use env var for security
+HF_TOKEN = os.getenv("HF_TOKEN", "your-huggingface-token")  # Use env var for security
 
 @app.post("/api/generate")
 def generate_response(query: Query):
